@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/header_layout_height"
+    android:background="@drawable/drawer_background"
+    android:clickable="false"
+    android:paddingTop="@dimen/status_bar_height"
+    android:id="@+id/headerbackground"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+        <com.github.siyamed.shapeimageview.CircularImageView
+        android:id="@+id/avatar"
+        android:elevation="4dp"
+        android:scaleType="centerInside"
+        android:layout_width="@dimen/avatar_size"
+        android:layout_height="@dimen/avatar_size"
+        android:layout_margin="@dimen/spacing_large"
+        android:src="@drawable/drawer_avatar"/>
+
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/email"
+        android:layout_marginLeft="@dimen/spacing_large"
+        android:layout_marginStart="@dimen/spacing_large"
+        android:text="Kelvin Thony"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2" />
+
+    <TextView
+        android:id="@+id/email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="@dimen/spacing_large"
+        android:layout_marginStart="@dimen/spacing_large"
+        android:text="Kelvinthony@gmail.com"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+
+
+
+</RelativeLayout>

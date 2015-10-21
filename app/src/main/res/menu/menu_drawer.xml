@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/drawer_articles"
+            android:checked="true"
+            android:icon="@drawable/ic_book_black_24dp"
+            android:title="@string/articles" />
+        <item
+            android:id="@+id/drawer_events"
+            android:icon="@drawable/ic_event_black_24dp"
+            android:title="@string/events" />
+        <item
+            android:id="@+id/drawer_about"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="@string/about" />
+        <item
+            android:id="@+id/drawer_whatsup"
+            android:icon="@drawable/ic_message_black_24dp"
+            android:title="@string/whatsup" />
+        <item
+            android:id="@+id/drawer_createdby"
+            android:icon="@drawable/ic_code_black_24dp"
+            android:title="@string/createdby" />
+        <!--<item
+            android:id="@+id/drawer_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/drawer_favorites"
+            android:icon="@drawable/ic_star_black_24dp"
+            android:title="Favorites" />
+        <item
+            android:id="@+id/drawer_settings"
+            android:icon="@drawable/ic_settings_black_24dp"
+            android:title="Settings" />-->
+    </group>
+</menu>

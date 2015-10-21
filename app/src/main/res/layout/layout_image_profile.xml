@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.github.siyamed.shapeimageview.CircularImageView
+    android:id="@+id/avatar"
+    android:elevation="4dp"
+    android:scaleType="centerInside"
+    android:layout_width="@dimen/avatar_size"
+    android:layout_height="@dimen/avatar_size"
+    android:layout_margin="@dimen/spacing_large"
+    android:src="@drawable/drawer_avatar"
+    xmlns:android="http://schemas.android.com/apk/res/android" />
